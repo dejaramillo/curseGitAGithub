@@ -26,4 +26,4 @@ git remote add origin [enlace de git clone] conecta a git con git hub
 git remote -v muestra el origen para hacer fetch traer o push enviar cosas
 git pull origin (master or main ) --allow-unrelated-histories - sincroniza la rama local con la remota
 git tag -a [name of version] -m "commit message"  [number of repo] 
-
+git tag -d [name of tag] "delete a tag"
