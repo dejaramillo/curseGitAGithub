@@ -23,3 +23,6 @@ staging espacio en memoria temporal donde se almacena el repo antes de hacer com
 ************comandos basicos de github**************
 git remote add origin [enlace de git clone] conecta a git con git hub
 git remote -v muestra el origen para hacer fetch traer o push enviar cosas
+git pull origin (master or main ) --allow-unrelated-histories - sincroniza la rama local con la remota
+
+
