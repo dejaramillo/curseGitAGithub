@@ -27,3 +27,5 @@ git remote -v muestra el origen para hacer fetch traer o push enviar cosas
 git pull origin (master or main ) --allow-unrelated-histories - sincroniza la rama local con la remota
 git tag -a [name of version] -m "commit message"  [number of repo] 
 git tag -d [name of tag] "delete a tag"
+git push origin :refs/tags/[name tag] elimina el tag en el repositorio local y remoto
+
