@@ -1,0 +1,22 @@
+*********comandos basicos de git********
+git add
+git commit
+git show
+git log [fileName]
+git status
+git config para configurar usuario de git
+git config --list --show-origin para ver donde esta la configuracion
+git config --global user.name "name"
+git diff [route commit1] [route commit 2]
+git reset [routecommit - para volver] --hard cambia todo o -- soft modificatodo menos el staiging
+git log --stat muestra la cantidad de cambios que tiene cada commit
+git checkout
+git push
+git pull es la fusion de fetch y merge
+git fetch
+git merge
+********************************
+****************staging y los repos********
+staging espacio en memoria temporal donde se almacena el repo antes de hacer commit
+********************************
+
